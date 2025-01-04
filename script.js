@@ -23,7 +23,7 @@ async function displayTextAfterDelay() {
   }
 
   // Clear previous output and introduce delay
-  outputDiv.innerText = 'Processing...';
+  // outputDiv.innerText = 'Processing...';
   await delay(delayTime);
 
   // Display the text after the delay
